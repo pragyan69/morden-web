@@ -23,3 +23,12 @@ export default Stats
 // here if you will check the stat is coming from the constant file and it is in the form of objects , so we are calling the objext in the form of class 
 // in the above code we are callin the stat in the form of key value pair
 
+// to import the command in the form of map from a exterior file
+
+// write the code in the following way
+
+//  {stats.map((stat)=>(
+// <div key = {stat.id}>
+
+// </div>
+// ))}
