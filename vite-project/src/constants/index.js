@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Multiple Tracking",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The AI can track multiple faces at the same time   ",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps make sure your information are secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Attendance tracking",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "The attendee can track their attendance whenever they want. ",
   },
 ];
 

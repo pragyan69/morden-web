@@ -31,10 +31,10 @@ const App = () => {
       <div className = {`${styles.boxWidth}`}>
         <Stats/>
         <Business/>
-        <Billing/>
+        {/* <Billing/> */}
         <CardDeal/>
-        <Testimonals/>
-        <Clients/>
+        {/* <Testimonals/>
+        <Clients/> */}
         <CTA/>
         <Footer/>
         

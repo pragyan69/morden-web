@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { close, logo, menu , instagram , linkedin } from "../assets";
 import { navLinks } from "../constants";
+import styles  from "../styles";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -9,9 +10,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={instagram} alt="hoobank" className="w-[124px] h-[32px]" />
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
-      <img src={linkedin} alt="hoobank" className="w-[124px] h-[32px]" />
+      {/* <img src={instagram} alt="hoobank" className="w-[124px] h-[32px]" /> */}
+      <h3 className = {`${styles.heading2}`}>FARPAT</h3>
+      {/* <img src={linkedin} alt="hoobank" className="w-[124px] h-[32px]" /> */}
       
       
 
